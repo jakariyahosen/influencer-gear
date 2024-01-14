@@ -13,6 +13,13 @@ background: #E02C6D;
 border: none;
 
 }
+.btn:hover{
+    background-color: #f207a4;
+    transform: scaleX(80%);
+    transform:skewY(20deg) ;
+    color: #0c00b9;
+    
+}
 .btn2{
     padding: 10px 15px;
     
@@ -68,6 +75,7 @@ nav > ul{
 .head-img{
     padding-left: 100px;
 }
+
 .sponser{
     display: flex;
     justify-content: space-around;
@@ -84,18 +92,15 @@ nav > ul{
 }
 .item-container{
     padding: 0 200px 0 200px;
+    
     justify-content: center;
     
-    
-    
-    
-
 }
 .all-item{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-   
+   padding: 0 50px;
 }
 .item{
     border-radius: 5px;
@@ -106,6 +111,14 @@ nav > ul{
     padding: 20px;
     
 
+}
+.item:hover{
+    background-color: #ffd5f189;
+    transform: scaleY(20px, 10px);
+    transform: translate(10px, 10px);
+    
+    
+    
 }
 .item-title{
     text-align: center;
@@ -165,4 +178,39 @@ nav > ul{
 }
 .featured-title h2{
         color: #0A0826;;
+}
+.footer{
+    background-color: #0A0826;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    
+}
+
+   
+   
+
+.footer-content{
+    color: #FFF;
+    
+
+}
+.footer h3{
+    padding: 0;
+    margin: 0;
+}
+.footer-content p {
+    padding: 0;
+    margin: 0;
+    font-size: 10px;
+
+}
+.icon{
+    padding-top: 10px;
+}
+.by{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: 700;
+    color: #E02C6D;
 }
